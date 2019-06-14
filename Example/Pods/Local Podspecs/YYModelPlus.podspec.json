@@ -1,0 +1,22 @@
+{
+  "name": "YYModelPlus",
+  "version": "0.1.0",
+  "summary": "A short description of YYModelPlus.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Spaino/YYModelPlus",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Spaino": "lianglibao1235@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Spaino/YYModelPlus.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YYModelPlus/Classes/**/*"
+}

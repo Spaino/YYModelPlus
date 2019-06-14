@@ -1,5 +1,5 @@
 # YYModelPlus
-
+Follow-up improvement README...
 [![CI Status](https://img.shields.io/travis/Spaino/YYModelPlus.svg?style=flat)](https://travis-ci.org/Spaino/YYModelPlus)
 [![Version](https://img.shields.io/cocoapods/v/YYModelPlus.svg?style=flat)](https://cocoapods.org/pods/YYModelPlus)
 [![License](https://img.shields.io/cocoapods/l/YYModelPlus.svg?style=flat)](https://cocoapods.org/pods/YYModelPlus)

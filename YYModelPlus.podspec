@@ -7,36 +7,30 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'YYModelPlus'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of YYModelPlus.'
+    s.name         = 'YYModelPlus'
+    s.summary      = 'High performance model framework for iOS/OSX. Source Code is from YYModel, I added some capabilities to it.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+    s.description  = <<-DESC
+    Source Code is from YYModel, I added some capabilities to it.
+    Capability 1.Adding a Class Rewrite Method +(YYMapperType)mapperType, Returns an enumerated value, let JSON key auto underscore Case To Camel Case.
+    Capability 2.Add an error parameter to collect errors during parsing.
+                         DESC
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+    s.version      = '1.0.0'
+    s.license      = { :type => 'MIT', :file => 'LICENSE' }
+    s.authors      = { 'lianglibao' => 'captain_spaino@163.com' }
+    s.homepage     = 'https://github.com/Spaino/YYModelPlus'
 
-  s.homepage         = 'https://github.com/Spaino/YYModelPlus'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Spaino' => 'lianglibao1235@gmail.com' }
-  s.source           = { :git => 'https://github.com/Spaino/YYModelPlus.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+    s.ios.deployment_target = '6.0'
+    s.osx.deployment_target = '10.7'
+    s.watchos.deployment_target = '2.0'
+    s.tvos.deployment_target = '9.0'
 
-  s.ios.deployment_target = '8.0'
+    s.source       = { :git => 'https://github.com/Spaino/YYModelPlus.git', :tag => s.version.to_s }
 
-  s.source_files = 'YYModelPlus/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'YYModelPlus' => ['YYModelPlus/Assets/*.png']
-  # }
+    s.requires_arc = true
+    s.source_files = 'YYModelPlus/*.{h,m}'
+    s.public_header_files = 'YYModelPlus/*.{h}'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.frameworks = 'Foundation', 'CoreFoundation'
 end

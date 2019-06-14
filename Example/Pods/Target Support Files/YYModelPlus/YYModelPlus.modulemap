@@ -1,0 +1,6 @@
+framework module YYModelPlus {
+  umbrella header "YYModelPlus-umbrella.h"
+
+  export *
+  module * { export * }
+}
