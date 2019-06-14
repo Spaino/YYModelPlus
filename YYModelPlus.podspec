@@ -29,8 +29,8 @@ Pod::Spec.new do |s|
     s.source       = { :git => 'https://github.com/Spaino/YYModelPlus.git', :tag => s.version.to_s }
 
     s.requires_arc = true
-    s.source_files = 'YYModelPlus/*.{h,m}'
-    s.public_header_files = 'YYModelPlus/*.{h}'
+    s.source_files = 'YYModelPlus/Classes/*.{h,m}'
+    s.public_header_files = 'YYModelPlus/Classes/*.{h}'
 
     s.frameworks = 'Foundation', 'CoreFoundation'
 end
